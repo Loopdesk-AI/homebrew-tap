@@ -10,17 +10,17 @@ class CopilotBuddy < Formula
   on_macos do
     on_arm do
       url "https://github.com/Loopdesk-AI/homebrew-tap/releases/download/copilot-buddyd-v0.16.0/copilot-buddy-0.16.0-aarch64-apple-darwin.tar.gz"
-      sha256 "60aaa45ea1344a51092c794b4748e71bb03b4aa18ebd8cc21c453e534c7fea6d"
+      sha256 "a2b5fc1d90bca5bb455b1854e2b3810a45ade72a72e30a701b86534ac93c1fd8"
     end
     on_intel do
       url "https://github.com/Loopdesk-AI/homebrew-tap/releases/download/copilot-buddyd-v0.16.0/copilot-buddy-0.16.0-x86_64-apple-darwin.tar.gz"
-      sha256 "fb19dcf58f9005f62bc8565b155ed9393040f13f3c31d71346d8548dd34a50cc"
+      sha256 "e6ccb59a701ddb96a5d4618541cdc54f80bd915c6ffd7428ed56c5e17aa1796a"
     end
   end
   on_linux do
     on_intel do
       url "https://github.com/Loopdesk-AI/homebrew-tap/releases/download/copilot-buddyd-v0.16.0/copilot-buddy-0.16.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e639f83898168bb3104112105558038f066d87953b2a2743e4354871634da7f5"
+      sha256 "fa9801e120c361b71aa18813307dbb24f7471aef361e012cd001f76391b9f986"
     end
   end
 
