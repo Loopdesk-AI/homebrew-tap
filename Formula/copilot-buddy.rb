@@ -1,7 +1,7 @@
 class CopilotBuddy < Formula
   desc "Bridge between the GitHub Copilot CLI and a BLE Copilot Buddy device"
   homepage "https://github.com/Loopdesk-AI/homebrew-tap"
-  version "0.20.0"
+  version "0.21.0"
   license "MIT"
 
   # Prebuilt release binaries (no Rust toolchain needed). The source lives in a
@@ -9,18 +9,18 @@ class CopilotBuddy < Formula
   # tarballs contain a CopilotBuddy.app bundle so the daemon can obtain Bluetooth.
   on_macos do
     on_arm do
-      url "https://github.com/Loopdesk-AI/homebrew-tap/releases/download/copilot-buddyd-v0.20.0/copilot-buddy-0.20.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e713c1dbe7e60c9ba962244f4dcaf43f2bb2d4656db076d2213bf6cfaa08ac2a"
+      url "https://github.com/Loopdesk-AI/homebrew-tap/releases/download/copilot-buddyd-v0.21.0/copilot-buddy-0.21.0-aarch64-apple-darwin.tar.gz"
+      sha256 "2c41f53d3df4a104efccdaccbfd7578304a23c6194e846ff64c4249135d50567"
     end
     on_intel do
-      url "https://github.com/Loopdesk-AI/homebrew-tap/releases/download/copilot-buddyd-v0.20.0/copilot-buddy-0.20.0-x86_64-apple-darwin.tar.gz"
-      sha256 "34cceaf8e4c0c1eafb8bd4ddf11d46f1fdfbd503adc17737273e21ce66fa5d85"
+      url "https://github.com/Loopdesk-AI/homebrew-tap/releases/download/copilot-buddyd-v0.21.0/copilot-buddy-0.21.0-x86_64-apple-darwin.tar.gz"
+      sha256 "011173e03626da610980a77c181f370866e808f07f6357ed7bc19871270becf5"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/Loopdesk-AI/homebrew-tap/releases/download/copilot-buddyd-v0.20.0/copilot-buddy-0.20.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4279c1bcba4f068263f2d17dbfdea68ee136fa0abf21d41ca7bc66d4e7fd25f3"
+      url "https://github.com/Loopdesk-AI/homebrew-tap/releases/download/copilot-buddyd-v0.21.0/copilot-buddy-0.21.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9f64828aaf403d81da334d3f6c67e43914ba4016d4f521a59beed00dec08da9e"
     end
   end
 
